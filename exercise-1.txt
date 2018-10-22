@@ -4,10 +4,10 @@
 --------------------Newton Second Law-----------------------------------
 
 --Algoritma
-1. Simpan "Berat" dengan nilai 600
+1. Simpan "Massa benda" dengan nilai 600
 2. Simpan "Pecepatan" dengan nilai 2
 3. Simpan "Gaya" tanpa diberikan nilai
-4. Hitung hasil perkalian "Berat" dengan "Percepatan"
+4. Hitung hasil perkalian "Massa benda" dengan "Percepatan"
 5. Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "Gaya"
 6. Tampilkan nilai dari "Gaya"
 
