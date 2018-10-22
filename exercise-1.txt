@@ -1,0 +1,80 @@
+
+
+
+--------------------Newton Second Law-----------------------------------
+
+--Algoritma
+1. Simpan "Berat" dengan nilai 600
+2. Simpan "Pecepatan" dengan nilai 2
+3. Simpan "Gaya" tanpa diberikan nilai
+4. Hitung hasil perkalian "Berat" dengan "Percepatan"
+5. Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "Gaya"
+6. Tampilkan nilai dari "Gaya"
+
+--Pseudocode
+STORE "mass" with 600
+STORE "acceleration" with 2
+STORE "force" without any value
+CALCULATE "mass" times 'acceleration
+SET "force" with the result of the calculation
+DISPLAY "force"
+END
+
+
+--------------------TAHUN KABISAT-----------------------------------
+
+--Algoritma
+1. Simpan "tahun" dengan bilangan cacah
+2. Jika "tahun" habis dibagi 4 maka lanjutkan ke nomor 3, selain itu lanjutkan ke nomor 6
+3. Jika "tahun" habis dibagi 100 maka lanjutkan ke nomor 4, selain itu lanjutkan ke nomor 5
+4. Jika "tahun" habis dibagi 400 maka lanjutkan ke nomor 5, selain itu lanjutkan ke nomor 6
+5. tampilkan "tahun kabisat"
+6. tampilkan "tahun non-kabisat"
+
+--Pseudocode
+STORE "tahun" with any positive integer value
+IF "tahun" mod 4 equals to 0 AND "tahun" mod 100 more than 0 then
+    DISPLAY "tahun kabisat"
+Else if "tahun" mod 4 equals to 0 AND "tahun" mod 100 equals to 0 AND "tahun" mod 400 equals to 0, then
+    DISPLAY "Tahun kabisat"
+Else
+    DISPLAY "tahun non kabisat"
+END IF
+
+
+--------------------Laundry-----------------------------------
+
+--Algoritma
+1. Hitung "jumlah pakaian" dari nilai 0
+2. Tambah nilai "jumlah pakaian" hingga bernilai 20
+3. Nyalakan mesin Cuci
+
+--Pseudocode
+STORE "Jumlah Pakaian" with 0
+WHILE "Jumlah Pakaian" less than 21
+    ADD "jumlah pakaian" by 1
+END WHILE
+DISPLAY "nyalakan mesin cuci"
+END
+
+--------------------Periksa Kuku-----------------------------------
+
+--Algoritma
+1. Siapkan 40 murid
+2. Periksa kuku murid
+3. Jika Kotor maka diberi hukuman, selain itu lanjutkan ke nomor 4
+4. Jika bersih maka diberi pujian
+5. lakukan pemeriksaan keseluruh 40 murid
+
+--Pseudocode
+
+STORE "murid" with 0
+WHILE "murid" less than 41
+    ADD "murid" by 1
+    IF "kuku bersih"
+        GET "pujian"
+    ELSE 
+        GET "hukuman"
+    ENDIF
+END WHILE
+
