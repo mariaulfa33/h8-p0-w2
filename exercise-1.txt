@@ -17,7 +17,7 @@ STORE "acceleration" with 2
 STORE "force" without any value
 CALCULATE "mass" times 'acceleration
 SET "force" with the result of the calculation
-DISPLAY "force"
+DISPLAY "fogitrce"
 END
 
 
@@ -36,9 +36,9 @@ STORE "tahun" with any positive integer value
 IF "tahun" mod 4 equals to 0 AND "tahun" mod 100 more than 0 then
     DISPLAY "tahun kabisat"
 Else if "tahun" mod 4 equals to 0 AND "tahun" mod 100 equals to 0 AND "tahun" mod 400 equals to 0, then
-    DISPLAY "Tahun kabisat"
+    DISPLAY 'Tahun kabisat'
 Else
-    DISPLAY "tahun non kabisat"
+    DISPLAY 'tahun non kabisat'
 END IF
 
 
@@ -54,7 +54,7 @@ STORE "Jumlah Pakaian" with 0
 WHILE "Jumlah Pakaian" less than 21
     ADD "jumlah pakaian" by 1
 END WHILE
-DISPLAY "nyalakan mesin cuci"
+DISPLAY 'nyalakan mesin cuci'
 END
 
 --------------------Periksa Kuku-----------------------------------
@@ -71,10 +71,10 @@ END
 STORE "murid" with 0
 WHILE "murid" less than 41
     ADD "murid" by 1
-    IF "kuku bersih"
-        GET "pujian"
+    IF 'kuku bersih'
+        GET 'pujian'
     ELSE 
-        GET "hukuman"
+        GET 'hukuman'
     ENDIF
 END WHILE
 
