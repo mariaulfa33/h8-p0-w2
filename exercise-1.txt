@@ -17,7 +17,7 @@ STORE "acceleration" with 2
 STORE "force" without any value
 CALCULATE "mass" times 'acceleration
 SET "force" with the result of the calculation
-DISPLAY "fogitrce"
+DISPLAY "force"
 END
 
 
