@@ -1,17 +1,17 @@
 //Menyusun Barisan Bintang
 
-var rows1 = 5; //<----isi disini
-var rows1stop = rows1+1;
-for (var rows1 = 1; rows1 < rows1stop  ; rows1 ++){
+
+var rows1 = 5;
+for (var rows1 = 1; rows1 <= 5  ; rows1 ++){
     console.log('*');
 }
 
 //Menyusun Barisan Bintang Dengan Nested Looping
 
-var rowsisi = 5; //<----isi disini
-for (var i= 1; i<=rowsisi ; i ++){
+
+for (var i= 1; i<=5; i ++){
     var rows2 = "";
-    for (var j= 1; j <=rowsisi; j ++){
+    for (var j= 1; j <=5; j ++){
         rows2 += '*'
     }
     console.log( rows2);
@@ -21,8 +21,8 @@ for (var i= 1; i<=rowsisi ; i ++){
 
 //Menyusun Barisan Tangga Bintang Dengan Nested Looping
 
-var rowsisi2= 5;//<----isi disini
-for (var i= 1; i<=rowsisi2 ; i ++){
+
+for (var i= 1; i<=5 ; i ++){
     var rows3 = "";
     for (var j= 1; j<=i; j ++){
         rows3 += '*'

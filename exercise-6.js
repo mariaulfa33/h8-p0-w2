@@ -47,6 +47,8 @@ for (var counter = 1;  counter <=100; counter +=2){
     if (reminder===0){
         console.log(counter + ' kelipatan 3');
     
+    }else {
+        console.log('');
     }
 }
 
@@ -57,6 +59,8 @@ for (var counter = 1;  counter <=100; counter +=5){
     reminder = counter%6;
     if (reminder===0){
         console.log(counter + ' kelipatan 6');
+    }else {
+        console.log('')
     }
 }
 
@@ -67,5 +71,5 @@ for (var counter = 1;  counter <=100; counter +=9){
     reminder = counter%10;
     if (reminder===0){
         console.log(counter + ' kelipatan 10');
-    } 
+    } console.log('')
 }
