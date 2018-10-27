@@ -34,8 +34,8 @@ END
 --Pseudocode
 STORE "tahun" with any positive integer value
 IF "tahun" mod 4 equals to 0 AND "tahun" mod 100 more than 0 then
-    DISPLAY "tahun kabisat"
-Else if "tahun" mod 4 equals to 0 AND "tahun" mod 100 equals to 0 AND "tahun" mod 400 equals to 0, then
+    DISPLAY 'tahun kabisat'
+ELSE IF "tahun" mod 4 equals to 0 AND "tahun" mod 100 equals to 0 AND "tahun" mod 400 equals to 0, then
     DISPLAY 'Tahun kabisat'
 Else
     DISPLAY 'tahun non kabisat'
@@ -76,5 +76,5 @@ WHILE "murid" less than 41
     ELSE 
         GET 'hukuman'
     ENDIF
-END WHILE
+END W
 
